@@ -1,0 +1,57 @@
+[
+    {
+        "id":1,
+      "profile_picture": "https://i.ibb.co/hM7zVDm/profile-1.png",
+      "background_image": "https://i.ibb.co/fYf7dh3/buyer-Cover-1.png",
+      "company_name": "Agrifarm Private Limited",
+      "owner_name": "Arjun Singh",
+      "location": "Haridwar, Uttrakhand",
+      "products_deals_in": "Rice, Wheat, etc."
+    },
+    {
+        "id":2,
+      "profile_picture": "https://i.ibb.co/B6kKTZQ/profile-2.png",
+      "background_image": "https://i.ibb.co/8NM5S4h/buyer-Cover-2.png",
+      "company_name": "Agrifarm Private Limited",
+      "owner_name": "Arjun Singh",
+      "location": "Haridwar, Uttrakhand",
+      "products_deals_in": "Rice, Wheat, etc."
+    },
+    {
+        "id":3,
+      "profile_picture": "https://i.ibb.co/3k77RV4/profile-3.png",
+      "background_image": "https://i.ibb.co/zndQNHb/buyer-Cover-3.png",
+      "company_name": "Agrifarm Private Limited",
+      "owner_name": "Arjun Singh",
+      "location": "Haridwar, Uttrakhand",
+      "products_deals_in": "Rice, Wheat, etc."
+    },
+    {
+        "id":4,
+      "profile_picture": "https://i.ibb.co/pLBmwhy/profile-4.png",
+      "background_image": "https://i.ibb.co/2qFFsGd/buyer-Cover-4.png",
+      "company_name": "Agrifarm Private Limited",
+      "owner_name": "Arjun Singh",
+      "location": "Haridwar, Uttrakhand",
+      "products_deals_in": "Rice, Wheat, etc."
+    },
+    {
+        "id":5,
+      "profile_picture": "https://i.ibb.co/n3nFf6M/profile-5.png",
+      "background_image": "https://i.ibb.co/WV3Zm4s/buyer-Cover-5.png",
+      "company_name": "Agrifarm Private Limited",
+      "owner_name": "Arjun Singh",
+      "location": "Haridwar, Uttrakhand",
+      "products_deals_in": "Rice, Wheat, etc."
+    },
+    {
+        "id":6,
+      "profile_picture": "https://i.ibb.co/gJkDVMv/profile-6.png",
+      "background_image": "https://i.ibb.co/nQ5Yhxk/buyer-Cover-6.png",
+      "company_name": "Agrifarm Private Limited",
+      "owner_name": "Arjun Singh",
+      "location": "Haridwar, Uttrakhand",
+      "products_deals_in": "Rice, Wheat, etc."
+    }
+    
+  ]
