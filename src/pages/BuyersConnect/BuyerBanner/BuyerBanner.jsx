@@ -9,11 +9,12 @@ const BuyerBanner = ({ upText, title, paratext,img }) => {
 
                 height: 'full'
             }}>
+                 <div className="hero-overlay bg-opacity-40"></div>
                 <div>
                     <div className="hero-content  text-neutral-content">
                         <div className="max-w-full flex gap-[168px]">
                             <div className=''>
-                                <p className='text-[24px] mb-[40px]'>{upText}</p>
+                                <p className='text-[24px] mb-[40px] mt-6'>{upText}</p>
                                 <h2 className='text-[40px] mb-[144px] font-semibold'>{title}</h2>
 
                                 <button className='py-[16px] px-[30.5px] bg-white text-black flex items-center gap-2 '>Connect Now <FaArrowRight /></button>

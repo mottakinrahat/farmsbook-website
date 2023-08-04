@@ -2,6 +2,8 @@ import React from 'react';
 import BuyerBanner from '../../BuyersConnect/BuyerBanner/BuyerBanner';
 import HarvestCard from '../HarvestCard/HarvestCard';
 import Benifit from '../Benifit/Benifit';
+import WhatsJoin from '../../../component/WhatsJoin/WhatsJoin';
+import HarvestForm from '../HarvestForm/HarvestForm';
 
 const HarvestManagement = () => {
     return (
@@ -10,6 +12,8 @@ const HarvestManagement = () => {
 
          <HarvestCard/>
          <Benifit/>
+         <WhatsJoin title={'Join the community to get benefits of all the services '}/>
+         <HarvestForm/>
         </div>
     );
 };

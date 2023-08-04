@@ -2,7 +2,7 @@ import React from 'react';
 
 const Benifit = () => {
     return (
-        <div>
+        <div className='mb-[96px]'>
             <h2 className='text-[32px] text-center mt-[120] mb-[64px]'>Benefits</h2>
             <div className='flex justify-around items-center'>
                 <div className='w-[396px] h-[544px] py-[40px] pl-[40px] bg-[#F9E3B9] rounded-lg '>

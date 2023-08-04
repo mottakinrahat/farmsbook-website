@@ -46,10 +46,10 @@ const Navbar = () => {
  </li>
  <li>
      <NavLink
-         to='/blog'
+         to='/demandForecast'
          className={({ isActive }) => (isActive ? 'text-blue-500' : 'default')}
      >
-        Buyers Connect
+        Demand Forecast
      </NavLink>
  </li>
 </ul></div>

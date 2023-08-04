@@ -12,6 +12,7 @@ import BuyerBanner from './pages/BuyersConnect/BuyerBanner/BuyerBanner.jsx';
 import BuyersContact from './component/Home/BuyersContact/BuyersContact.jsx';
 import BuyersConnect from './pages/BuyersConnect/BuyersConnect/BuyersConnect.jsx';
 import HarvestManagement from './pages/HarvestMannagement/HarvestMannagement/HarvestManagement.jsx';
+import DemandForcast from './pages/DemandForcast/DemandForcast.jsx';
 
 
 
@@ -33,7 +34,12 @@ const router = createBrowserRouter([
         path:'harvestManagement',
         element:<HarvestManagement/>
 
-      }
+      },
+      {
+        path:'demandForecast',
+        element:<DemandForcast/>
+
+      },
 
     ]
   },
