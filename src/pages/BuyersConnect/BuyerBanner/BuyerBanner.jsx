@@ -1,11 +1,11 @@
 import React from 'react';
 import { FaArrowRight } from "react-icons/fa";
-const BuyerBanner = ({ upText, title, paratext }) => {
-    const bannerImgUrl = 'https://i.ibb.co/VBDdv3K/Rectangle-46.png';
+const BuyerBanner = ({ upText, title, paratext,img }) => {
+    const bannerImgUrl = {img};
     return (
         <div className=''>
             <div className="hero h-[600px]" style={{
-                backgroundImage: `url(${bannerImgUrl})`,
+                backgroundImage: `url(${img})`,
 
                 height: 'full'
             }}>

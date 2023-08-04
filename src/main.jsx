@@ -11,6 +11,8 @@ import Home from './component/Home/Home/Home.jsx';
 import BuyerBanner from './pages/BuyersConnect/BuyerBanner/BuyerBanner.jsx';
 import BuyersContact from './component/Home/BuyersContact/BuyersContact.jsx';
 import BuyersConnect from './pages/BuyersConnect/BuyersConnect/BuyersConnect.jsx';
+import HarvestManagement from './pages/HarvestMannagement/HarvestMannagement/HarvestManagement.jsx';
+
 
 
 
@@ -27,6 +29,11 @@ const router = createBrowserRouter([
         path:'buyersConnect',
         element:<BuyersConnect></BuyersConnect>
       },
+      {
+        path:'harvestManagement',
+        element:<HarvestManagement/>
+
+      }
 
     ]
   },

@@ -38,7 +38,7 @@ const Navbar = () => {
  </li>
  <li>
      <NavLink
-         to='/blog'
+         to='/harvestManagement'
          className={({ isActive }) => (isActive ? 'text-blue-500' : 'default')}
      >
        Harvest Management
