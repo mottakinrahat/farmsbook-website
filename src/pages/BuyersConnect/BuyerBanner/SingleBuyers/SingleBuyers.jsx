@@ -5,7 +5,7 @@ const SingleBuyers = ({sData}) => {
    const{background_image , company_name , location , owner_name , products_deals_in , profile_picture}=sData;
     return (
         <div>
-            <div className='card h-[500px] w-[396px] border-2 rounded border-[#BDB7B7] bg-white'>
+            <div className='card h-[500px] w-[396px] mb-4 border-2 rounded border-[#BDB7B7] bg-white'>
                 <div className='card-content'>
                     <img src={background_image}  alt="" />
                     <img src={profile_picture} className='ml-[16px] mb-[21px] -mt-10' alt="" />

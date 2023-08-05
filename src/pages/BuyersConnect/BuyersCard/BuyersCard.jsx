@@ -11,9 +11,9 @@ const [arrayData,setArrayData]=useState([]);
  },[])
  console.log(arrayData);
     return (
-        <div className='mx-[94px] mb-[80px]'>
+        <div className='md:mx-[94px] mx-4 mb-[80px]'>
             <h2 className='text-[24px] mt-[71px] mb-[40px]  font-semibold'>Explore all Buyers </h2>
-           <div className='md:grid grid-cols-3 gap-6'>
+           <div className='md:grid grid-cols-3 gap-6 mb-4'>
             {
           arrayData.map(sData=><SingleBuyers key={sData.id} sData={sData}></SingleBuyers>)
             }
