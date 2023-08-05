@@ -12,7 +12,7 @@ const HarvestManagement = () => {
 
          <HarvestCard/>
          <Benifit/>
-         <WhatsJoin title={'Join the community to get benefits of all the services '}/>
+         <WhatsJoin title={'Join the community to get benefits of all the services '} alt={true}/>
          <HarvestForm/>
         </div>
     );

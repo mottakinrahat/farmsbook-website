@@ -13,6 +13,7 @@ import BuyersContact from './component/Home/BuyersContact/BuyersContact.jsx';
 import BuyersConnect from './pages/BuyersConnect/BuyersConnect/BuyersConnect.jsx';
 import HarvestManagement from './pages/HarvestMannagement/HarvestMannagement/HarvestManagement.jsx';
 import DemandForcast from './pages/DemandForcast/DemandForcast.jsx';
+import AboutUs from './pages/AboutUs/AboutUs/AboutUs.jsx';
 
 
 
@@ -25,6 +26,10 @@ const router = createBrowserRouter([
       {
         path:'/',
         element:<Home></Home>
+      },
+      {
+        path:'aboutUs',
+        element:<AboutUs/>
       },
       {
         path:'buyersConnect',
