@@ -2,16 +2,16 @@ import React from 'react';
 import rectimage from '../../../assets/formsImg/formsImg.png';
 const FormsHome = () => {
     return (
-        <div className='h-[682px] w-full flex justify-between '>
-            <div className='w-1/2 relative'>
-                <img src={rectimage} alt="" className="h-[682px] w-full" />
+        <div className='md:h-[682px] w-full md:flex justify-between '>
+            <div className='md:w-1/2 relative'>
+                <img src={rectimage} alt="" className="md:h-[682px] w-full" />
                 <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[496px] text-white ">
-                    <h2 className='text-[32px] font-semibold mb-[40px]'>Join Farmsbook</h2>
+                    <h2 className='md:text-[32px] font-semibold mb-[40px]'>Join Farmsbook</h2>
                     <p>Join Farmsbook today and unlock the full potential of your farming operation. Our platform caters to both small-scale farmers and large agricultural enterprises, offering tools and connections for your success. Connect with a vast network of buyers, streamline harvest management, and make data-driven decisions through our demand forecasting services. Let's create a sustainable and prosperous future for the agricultural community together.</p>
                 </div>
             </div>
 
-            <div className='w-1/2 bg-[#E2C0AD]'>
+            <div className='md:w-1/2 bg-[#E2C0AD]'>
                 <fieldset className='flex justify-center gap-[113px] mt-[97px] text-black'>
 
                     <div>

@@ -26,7 +26,7 @@ const BuyersContact = () => {
 
             {/* 2nd part */}
 
-            <div className='h-[682px] md:flex justify-between items-center'>
+            <div className='h-[682px] flex flex-col-reverse md:flex-row md:justify-between md:items-center'>
                 <div className='md:w-[496px] md:ml-[160px]'>
                     <p className='text-[24px] font-bold'>Harvest Management</p>
                     <h2 className='text-[32px] mb-[40px] font-bold'>Optimizing Efficiency, Ensuring Success</h2>
@@ -36,18 +36,18 @@ const BuyersContact = () => {
                 </div>
 
                 <div>
-                    <img className='w-[656px] h-[654px] pt-[80px]' src={frame_2} alt="" />
+                    <img className='md:w-[656px] md:h-[654px] pt-[80px]' src={frame_2} alt="" />
                 </div>
 
             </div>
             {/* 3rd part */}
 
-            <div className='h-[682px] bg-[#F0F2F1] md:flex justify-between items-center '>
+            <div className='md:h-[682px] bg-[#F0F2F1] md:flex justify-between items-center '>
                 <div>
-                    <img className='h-[655px] w-[655px] pt-[80px]' src={frame_3} alt="" />
+                    <img className='md:h-[655px] md:w-[655px] pt-[80px]' src={frame_3} alt="" />
                 </div>
 
-                <div className='w-[496px] mr-[160px]'>
+                <div className='md:w-[496px] md:mr-[160px]'>
                     <p className='text-[24px] font-bold'>Demand Forecasting</p>
                     <h2 className='text-[32px] mb-[40px] font-bold'>Anticipating Needs, Driving Growth</h2>
                     <p className='mb-[40px] text-[16px] '>Our platform leverages advanced analytics and market trends to provide farmers with valuable insights into future demand patterns. By equipping farmers with the knowledge to anticipate market needs, we empower them to plan their production cycles effectively, minimize supply-demand imbalances, and seize growth opportunities.</p>

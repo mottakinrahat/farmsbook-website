@@ -14,7 +14,8 @@ const Footer = () => {
     return (
         <div className='bg-white'>
             <div className='w-full  flex justify-around mt-[80px] '>
-                <div>
+               <div  className='md:flex justify-between gap-[306px]'>
+               <div>
                     <h2 className='text-[24px] mb-[16px] font-semibold'>COMPANY</h2>
                     <li style={listStyle} className='mb-[8px]'>Buyers Connect</li>
                     <li style={listStyle} className='mb-[8px]'>Harvest Management</li>
@@ -29,6 +30,7 @@ const Footer = () => {
                     <li style={listStyle} className=''>Phone: + (91) 9571141862,  8802556290</li>
                 </div>
 
+               </div>
                 <div>
                     <h2 className='text-[24px] mb-[16px] font-semibold'>Download App Now</h2>
                     <img src={playstore} alt="" />
