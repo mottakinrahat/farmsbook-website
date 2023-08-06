@@ -13,8 +13,8 @@ const DemandCrops = () => {
    },[])
    console.log(arrayDemand);
     return (
-        <div className='px-[94px] '>
-            <h2 className='text-[32px] mt-[80px] mb-[24px] font-semibold'>High Demand Crops</h2>
+        <div className='md:px-[94px] ml-4 md:ml-0'>
+            <h2 className='text-[32px] mt-[80px] mb-[24px] text-center font-semibold'>High Demand Crops</h2>
             <div className='md:grid grid-cols-3 gap-[32px] mb-[80px]'>
                 {
                     arrayDemand.map((demand, index) => <SingleDemand key={index} demand={demand}></SingleDemand>)

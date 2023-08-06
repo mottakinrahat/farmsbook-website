@@ -8,7 +8,7 @@ import FormsBuyer from '../FormsBuyer/FormsBuyer';
 const BuyersConnect = () => {
     return (
         <div className='bg-[#F6F7F9;]'>
-            <BuyerBanner upText={'Buyers connect'} title={'Direct Trade, Direct Impact'} paratext={'Connect with a vast network of farmers and buyers on our platform. Discover fresh and high-quality produce directly from the source. Build strong partnerships and elevate your business to new heights.'} img={'https://i.ibb.co/VBDdv3K/Rectangle-46.png'}/>
+            <BuyerBanner upText={'Buyers connect'} title={'Direct Trade, Direct Impact'} paratext={'Connect with a vast network of farmers and buyers on our platform. Discover fresh and high-quality produce directly from the source. Build strong partnerships and elevate your business to new heights.'} smText={'Connect with a vast network of farmers and buyers on our platform. Discover fresh and high-quality produce directly from the source.'} img={'https://i.ibb.co/VBDdv3K/Rectangle-46.png'}/>
 
             <BuyersCard/>
             <WhatsJoin title={'Join our Community'} head={'To view All Buyers '} alt={false}/>

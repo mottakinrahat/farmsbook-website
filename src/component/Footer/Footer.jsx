@@ -12,7 +12,7 @@ const Footer = () => {
         listStyle: 'none',
     };
     return (
-        <div className='bg-white'>
+        <div className='bg-white px-[16px]'>
             <div className='w-full  flex justify-around mt-[80px] '>
                <div  className='md:flex justify-between gap-[306px]'>
                <div>

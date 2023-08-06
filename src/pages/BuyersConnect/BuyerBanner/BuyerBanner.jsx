@@ -1,26 +1,28 @@
 import React from 'react';
 import { FaArrowRight } from "react-icons/fa";
-const BuyerBanner = ({ upText, title, paratext,img }) => {
+const BuyerBanner = ({ upText, title, paratext,img,smText }) => {
     const bannerImgUrl = {img};
     return (
         <div className=''>
-            <div className="hero h-[600px]" style={{
+            <div className="hero h-[244px] w-full md:h-[600px]" style={{
                 backgroundImage: `url(${img})`,
 
                 height: 'full'
             }}>
-                 <div className="hero-overlay bg-opacity-40"></div>
+                 <div className="md:hero-overlay md:bg-opacity-40"></div>
                 <div>
                     <div className="hero-content  text-neutral-content">
-                        <div className="max-w-full flex gap-[168px]">
+                        <div className="max-w-full md:flex md:gap-[168px]">
                             <div className=''>
-                                <p className='text-[24px] mb-[40px] mt-6'>{upText}</p>
-                                <h2 className='text-[40px] mb-[144px] font-semibold'>{title}</h2>
+                                <p className='md:text-[24px] md:mb-[40px] mt-6'>{upText}</p>
+                                <h2 className='md:text-[40px] md:mb-[144px] font-semibold'>{title}</h2>
 
-                                <button className='py-[16px] px-[30.5px] bg-white text-black flex items-center gap-2 '>Connect Now <FaArrowRight /></button>
+                                <p className=' md:hidden text-[12px] '>{smText}</p>
+
+                                <button className='md:py-[16px] py-[7px] md:px-[30.5px] px-[6.5px] bg-white text-black flex items-center gap-2 '>Connect Now <FaArrowRight /></button>
                             </div>
-                            <div className=' mt-[200px]'>
-                                <p className='w-[475px] text-[16px]'>{paratext}</p>
+                            <div className=' md:mt-[200px]'>
+                                <p className='md:w-[475px] hidden md:block text-[16px]'>{paratext}</p>
                             </div>
                         </div>
                     </div>

@@ -1,4 +1,5 @@
 import React from 'react';
+import './BannerCss/banner.css'
 const Banner = () => {
     const bannerImgUrl = 'https://i.ibb.co/ZS568Bt/2nd.png';
     return (
@@ -11,8 +12,8 @@ const Banner = () => {
                 
                 <div className="hero-content text-center text-neutral-content">
                     <div className="max-w-full">
-                        <h1 className="md:mb-[40px] md:text-[40px] font-semibold">Connecting the world of Farmers and Buyers</h1>
-                        <p className="md:mb-[48px] md:w-[502px] md:text-[24px] mx-auto">Bridge the gap between farmers and buyers.
+                        <h1 className="md:mb-[40px] md:text-[40px] mb-5 font-semibold">Connecting the world of Farmers and Buyers</h1>
+                        <p className="md:mb-[48px] md:w-[502px] md:text-[24px] mx-auto " id="hidden-text">Bridge the gap between farmers and buyers.
                             Streamline harvest management.
                             Unlock demand forecasting's full potential.</p>
                         <div className='flex justify-evenly '>

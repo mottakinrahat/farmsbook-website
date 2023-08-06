@@ -1,0 +1,11 @@
+/* Hide the text for small screens */
+#hidden-text {
+    display: none;
+  }
+  
+  /* Make the text visible for medium and larger screens */
+  @media screen and (min-width: 768px) {
+    #hidden-text {
+      display: block;
+    }
+  }

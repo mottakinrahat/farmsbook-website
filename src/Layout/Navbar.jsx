@@ -53,7 +53,7 @@ const Navbar = () => {
                                 </NavLink>
                             </li>
                         </ul></div>
-                    <div className='flex justify-end gap-2 sm:hidden'>
+                    <div className='md:flex justify-end gap-2 hidden'>
 
                         <button className='md:px-[16px] md:py-[8px] border-2 border-white rounded-full'>Download App</button>
                         <button className='md:px-[16px] md:py-[8px] border-2 border-white text-black bg-white rounded-full flex gap-1'><img className='h-[24px] w-[23.92px]' src={whatsapp} alt="" />Join Us</button>
@@ -67,7 +67,7 @@ const Navbar = () => {
                             title='Open Menu'
                             onClick={() => setIsMenuOpen(true)}
                         >
-                            <Bars3BottomRightIcon className='w-5 text-gray-600' />
+                            <Bars3BottomRightIcon className='w-5  ml-10 text-white' />
                         </button>
                         {isMenuOpen && (
                             <div className='absolute top-0 left-0 w-full z-10'>
@@ -77,8 +77,8 @@ const Navbar = () => {
                                         <div>
                                             <Link to='/' className='inline-flex items-center'>
 
-                                                <span className='ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase'>
-                                                   FarmsBook
+                                                <span className='ml-2 text-xl font-bold  text-gray-800 uppercase'>
+                                                    FarmsBook
                                                 </span>
                                             </Link>
                                         </div>
@@ -129,6 +129,12 @@ const Navbar = () => {
                                                 </NavLink>
                                             </li>
                                         </ul>
+                                        <div className='flex justify-end gap-2 '>
+
+                                            <button className='md:px-[16px] md:py-[8px] border-2 border-white rounded-full'>Download App</button>
+                                            <button className='md:px-[16px] md:py-[8px] border-2 border-white text-black bg-white rounded-full flex gap-1'><img className='h-[24px] w-[23.92px]' src={whatsapp} alt="" />Join Us</button>
+
+                                        </div>
                                     </nav>
                                 </div>
                             </div>
