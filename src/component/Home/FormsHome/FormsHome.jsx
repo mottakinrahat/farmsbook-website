@@ -28,7 +28,7 @@ const FormsHome = () => {
                 </fieldset>
 
 
-                    <div className=' md:mr-[100px] mx-[40px]  font-semibold '>
+                    <div className=' md:mr-[100px] mx-[40px] md:mx-0 font-semibold '>
 
                         <div className='md:flex items-center gap-[152px]'> <h2 className='mb-[2px]'>Name</h2>
                             <input type="text" placeholder="Your Name" className="input  border-none mb-[16px] md:w-[353px] w-[312px] h-[32px] md:h-[40px]" /></div>
