@@ -8,7 +8,7 @@ const FormsHome = () => {
                     <img src={rectimage} alt="" className="md:h-[682px] md:w-full" />
                 </div>
 
-                <div className='md:w-1/2 bg-[#E2C0AD] md:pl-[71px] w-[360px] py-[24px] md:py-0 pl-[24px]'>
+                <div className='md:w-1/2 bg-[#E2C0AD] md:pl-[71px] w-full py-[24px] md:py-0 pl-[24px]'>
 
                     <h2 className='text-[32px] font-semibold text-center mt-[64px] mb-[50px]'>Join Us</h2>
 
@@ -27,7 +27,7 @@ const FormsHome = () => {
                 </fieldset>
 
 
-                    <div className=' md:mr-[100px] mr-4 font-semibold'>
+                    <div className=' md:mr-[100px] mr-4 font-semibold ml-10 md:ml-0'>
 
                         <div className='md:flex items-center gap-[152px]'> <h2 className='mb-[2px]'>Name</h2>
                             <input type="text" placeholder="Your Name" className="input border-none mb-[16px] md:w-[353px] w-[312px] h-[32px] md:h-[40px]" /></div>

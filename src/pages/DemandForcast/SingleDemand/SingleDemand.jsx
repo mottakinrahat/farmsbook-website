@@ -3,7 +3,7 @@ import { FaArrowRight } from "react-icons/fa";
 const SingleDemand = ({demand}) => {
     const{image,title,description}=demand;
     return (
-        <div className='md:w-[396px] w-[328px]  md:h-[468px] h-[384px] bg-white rounded-xl  border-2 mb-4 border-[#BDB7B7]'>
+        <div className='md:w-[396px] w-[328px]  md:h-[468px] mx-auto h-[384px] bg-white rounded-xl  border-2 mb-4 border-[#BDB7B7]'>
             <div>
                 <img src={image} className='rounded-t-lg' alt="" />
                 <div className='px-[16px] py-[24px]'>

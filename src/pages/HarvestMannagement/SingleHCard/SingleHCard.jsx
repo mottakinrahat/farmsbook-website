@@ -3,7 +3,7 @@ import { FaArrowRight } from "react-icons/fa";
 const SingleHCard = ({harvest}) => {
     const{image_url,title,list1,list2,list3}=harvest;
     return (
-             <div className='md:w-[396px] w-[360px] mb-6 md:text-left'>
+             <div className='md:w-[396px] w-[360px] mx-auto mb-6 md:text-left'>
             <div>
                 <img src={image_url} className='md:h-[396px] md:w-[396px] mx-auto h-[234px] w-[234px]   mb-[40px]' alt="" />
 

@@ -14,10 +14,12 @@ const BuyersContact = () => {
                     </div>
 
 
-                    <div className='md:w-[496px] w-[327px] text-center mx-[16px] md:text-left'>
+                    <div className='md:w-[496px] w-[327px] text-center md:mx-[16px] md:text-left mx-auto'>
                         <p className='md:text-[24px] text-[14px] font-bold'>Buyers Connect</p>
                         <h2 className='md:text-[32px] text-[18px] mb-[40px] font-bold'>Unlocking Opportunities, Strengthening Partnerships</h2>
-                        <p className='mb-[40px] text-[16px] '>With our Buyer Connect feature, we create a direct link between farmers and potential buyers, fostering meaningful connections and facilitating transparent transactions. Our platform enables farmers to showcase their products, negotiate prices, and establish long-term partnerships with reliable buyers, empowering them to expand their reach and maximize profitability.</p>
+                        
+                            <p className='md:mb-[40px] text-[16px]'>With our Buyer Connect feature, we create a direct link between farmers and potential buyers, fostering meaningful connections and facilitating transparent transactions. Our platform enables farmers to showcase their products, negotiate prices, and establish long-term partnerships with reliable buyers, empowering them to expand their reach and maximize profitability.</p>
+                    
 
                         <button className='py-[16px] mx-auto md:mx-0 px-[30.5px] bg-black text-white flex items-center gap-2 '>Connect Now <FaArrowRight /></button>
                     </div>
@@ -27,8 +29,8 @@ const BuyersContact = () => {
             {/* 2nd part */}
 
             <div className='h-[682px] flex flex-col-reverse mt-10 md:mt-0 md:flex-row md:justify-between md:items-center'>
-                <div className='md:w-[496px] w-[327px] text-center mx-[16px] md:text-left'>
-                    <p className='md:text-[24px] text-[14px] font-bold'>Harvest Management</p>
+                <div className='md:w-[496px] w-[327px] text-center md:mx-[20px] mx-auto md:text-left'>
+                    <p className='md:text-[24px] text-[14px] mt-2 font-bold'>Harvest Management</p>
                     <h2 className='md:text-[32px] text-[18px] mb-[40px] font-bold'>Optimizing Efficiency, Ensuring Success</h2>
                     <p className='mb-[40px] text-[16px] '>Through our Harvest Management services, we provide farmers with tools and insights to optimize their harvest schedules, track yield data, and monitor crop quality. By harnessing the power of data-driven decision-making, we help farmers improve productivity, reduce waste, and enhance overall operational efficiency.</p>
 
@@ -47,8 +49,8 @@ const BuyersContact = () => {
                     <img className='md:w-[656px] md:h-[654px] w-[234px] h-[234px] mx-auto md:pt-[80px]' src={frame_3} alt="" />
                 </div>
 
-                <div className='md:w-[496px] w-[327px] text-center mx-[16px] md:text-left'>
-                    <p className='md:text-[24px] text-[14px] font-bold'>Demand Forecasting</p>
+                <div className='md:w-[496px] w-[327px] text-center md:mx-[16px] mx-auto md:text-left'>
+                    <p className='md:text-[24px] text-[14px] mt-2 font-bold'>Demand Forecasting</p>
                     <h2 className='md:text-[32px] text-[18px] mb-[40px] font-bold'>Anticipating Needs, Driving Growth</h2>
                     <p className='mb-[40px] text-[16px] '>Our platform leverages advanced analytics and market trends to provide farmers with valuable insights into future demand patterns. By equipping farmers with the knowledge to anticipate market needs, we empower them to plan their production cycles effectively, minimize supply-demand imbalances, and seize growth opportunities.</p>
 

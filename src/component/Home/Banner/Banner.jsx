@@ -17,8 +17,8 @@ const Banner = () => {
                             Streamline harvest management.
                             Unlock demand forecasting's full potential.</p>
                         <div className='flex justify-evenly '>
-                            <button className='md:px-[16px] md:py-[8px] border-2 border-white rounded-full'>Download App</button>
-                            <button className='md:px-[16px] md:py-[8px] border-2 border-white text-black bg-white rounded-full flex gap-1'>Join Us</button>
+                            <button className='md:px-[16px] md:py-[8px] border-2 py-[4px] px-[8px] border-white rounded-full'>Download App</button>
+                            <button className='md:px-[16px] md:py-[8px] border-2 py-[4px] px-[8px] border-white text-black bg-white rounded-full flex gap-1'>Join Us</button>
                         </div>
                     </div>
                 </div>
