@@ -28,8 +28,8 @@ const BuyersContact = () => {
 
             {/* 2nd part */}
 
-            <div className='h-[682px] flex flex-col-reverse mt-10 md:mt-0 md:flex-row md:justify-between md:items-center'>
-                <div className='md:w-[496px] w-[327px] text-center md:mx-[20px] mx-auto md:text-left'>
+            <div className='h-[682px] flex flex-col-reverse mt-10 md:mt-0 md:flex-row md:mx-[16px] md:justify-between md:items-center'>
+                <div className='md:w-[496px] w-[327px] text-center md:mx-[20px] md:ml-[160px] mx-auto md:text-left'>
                     <p className='md:text-[24px] text-[14px] mt-2 font-bold'>Harvest Management</p>
                     <h2 className='md:text-[32px] text-[18px] mb-[40px] font-bold'>Optimizing Efficiency, Ensuring Success</h2>
                     <p className='mb-[40px] text-[16px] '>Through our Harvest Management services, we provide farmers with tools and insights to optimize their harvest schedules, track yield data, and monitor crop quality. By harnessing the power of data-driven decision-making, we help farmers improve productivity, reduce waste, and enhance overall operational efficiency.</p>
@@ -44,12 +44,12 @@ const BuyersContact = () => {
             </div>
             {/* 3rd part */}
 
-            <div className='md:h-[682px] bg-[#F0F2F1] md:flex justify-between mt-4 py-4 items-center '>
+            <div className='md:h-[682px] bg-[#F0F2F1] md:flex  mt-4 py-4 items-center '>
                 <div>
-                    <img className='md:w-[656px] md:h-[654px] w-[234px] h-[234px] mx-auto md:pt-[80px]' src={frame_3} alt="" />
+                    <img className='md:w-[656px] md:mr-[130px] md:h-[654px] w-[234px] h-[234px] md:ml-4 mx-auto md:pt-[80px]' src={frame_3} alt="" />
                 </div>
 
-                <div className='md:w-[496px] w-[327px] text-center md:mx-[16px] mx-auto md:text-left'>
+                <div className='md:w-[496px] w-[327px] text-center md:mx-[16px] mx-auto md:mr-[160] md:text-left'>
                     <p className='md:text-[24px] text-[14px] mt-2 font-bold'>Demand Forecasting</p>
                     <h2 className='md:text-[32px] text-[18px] mb-[40px] font-bold'>Anticipating Needs, Driving Growth</h2>
                     <p className='mb-[40px] text-[16px] '>Our platform leverages advanced analytics and market trends to provide farmers with valuable insights into future demand patterns. By equipping farmers with the knowledge to anticipate market needs, we empower them to plan their production cycles effectively, minimize supply-demand imbalances, and seize growth opportunities.</p>

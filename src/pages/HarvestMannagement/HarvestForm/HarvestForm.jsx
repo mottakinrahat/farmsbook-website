@@ -14,7 +14,7 @@ const HarvestForm = () => {
                     <h2 className='text-[32px] font-semibold text-center mt-[64px] mb-[50px]'>Join Us</h2>
 
 
-                    <div className=' md:mr-[100px] mr-4 font-semibold ml-10 md:ml-0'>
+                    <div className=' md:mr-[100px] mr-4 font-semibold '>
 
                         <div className='md:flex items-center gap-[152px]'> <h2 className='mb-[2px]'>Name</h2>
                             <input type="text" placeholder="Your Name" className="input border-none mb-[16px] md:w-[353px] w-[312px] h-[32px] md:h-[40px]" /></div>

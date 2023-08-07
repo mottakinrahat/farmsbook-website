@@ -13,7 +13,7 @@ const Home = () => {
           <BuyersContact/>
           <Partner/>
           <Testimonial/>
-          <WhatsJoin title={'Join the community to get benefits of all the services '}/>
+          <WhatsJoin title={'Join the community to get benefits of all the services '} memberJoin={'200 Members already joined  farmsbook community'}/>
           <FormsHome/>
         </div>
     );

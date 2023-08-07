@@ -4,7 +4,7 @@ const Benifit = () => {
     return (
         <div className='mb-[96px]'>
             <h2 className='text-[32px] text-center mt-[120] mb-[64px]'>Benefits</h2>
-            <div className='md:flex justify-around items-center ml-4 md:ml-0  '>
+            <div className='md:flex justify-around items-center  md:ml-0  '>
                 <div className='md:w-[396px] w-[324px] md:h-[544px] h-[412px] mb-5 md:py-[40px] py-2 pr-2 mx-auto md:pl-[40px] pl-[20px] bg-[#F9E3B9] rounded-lg '>
                     <div className='flex flex-col justify-between mx-auto '>
                         <div className='md:pr-[25px] '>
@@ -23,7 +23,7 @@ const Benifit = () => {
                     <div className='flex flex-col-reverse justify-between'>
                         <div className='pr-[25px]'>
                             <h2 className='text-[24px] font-bold  md:mb-[16px] '>Business Expansion and Diversification</h2>
-                            <div className='w-[283px] text-[14px] md:text-[16px] '>
+                            <div className='w-[283px] text-[14px] md:text-[16px]'>
                                 <li>Harvest Management enables warehouse owners to expand their customer base by connecting with a wide range of farmers.</li>
                                 <li>Diversifying offerings by accommodating different crop types and varieties allows for a more versatile and resilient business.</li>
                             </div>

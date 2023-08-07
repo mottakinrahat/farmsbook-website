@@ -11,7 +11,7 @@ const AboutUs = () => {
             <AboutBanner/>
             <AboutC/>
             <Network/>
-            <WhatsJoin head={'To view All products'} title={'Join our Community'}/>
+            <WhatsJoin head={'To view All products'} title={'Join our Community'} memberJoin={'200 Members already joined  farmsbook community'}/>
             <AboutForm/>
         </div>
     );

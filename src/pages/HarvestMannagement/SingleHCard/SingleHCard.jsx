@@ -11,7 +11,7 @@ const SingleHCard = ({harvest}) => {
                 <div>
                     <h2 className='text-[24px] mb-[16px] text-center font-semibold'>{title}</h2>
 
-                    <div className='md:w-[382px] w-[325px]  md:mb-[60px] mb-[24px] px-[20px] md:px-0  md:text-[16px] text-[14px] md:ml-2'>
+                    <div className='md:w-[382px] w-[325px]  md:mb-[60px] mb-[24px] px-[20px] md:px-0 mx-auto  md:text-[16px] text-[14px] md:ml-2'>
                         <li>{list1}</li>
                         <li>{list2}</li>
                         <li>{list3}</li>

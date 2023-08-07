@@ -9,11 +9,11 @@ const Navbar = () => {
     return (
         <div className=' w-full md:text-white sticky md:-mb-20 z-10 '>
             <div className=' px-4 py-5 md:text-white mx-auto sm:max-w-xl h-[80px] md:max-w-full md:px-24 lg:px-8 bg-[#7C7C7C] md:bg-opacity-50'>
-                <div className='relative flex justify-between px-[94px] items-center gap-4'>
+                <div className='relative flex md:justify-between md:px-[94px] items-center gap-4'>
 
-                    <div className='flex justify-between items-center gap-[44px]'><Link to='/' className='inline-flex items-center'>
+                    <div className='flex justify-between  items-center md:gap-[44px]'><Link to='/' className='inline-flex items-center'>
 
-                        <img className='w-[33.33333px] h-[33.33333px] mt-2' src={logo} alt="" /><span className='ml-2 text-[20px] font-bold tracking-wide text-white'>
+                        <img className='md:w-[33.33333px] md:h-[33.33333px] mt-2' src={logo} alt="" /><span className='ml-2  text-[20px] font-bold md:tracking-wide text-white'>
                             FarmsBook
                         </span>
                     </Link>
@@ -67,7 +67,7 @@ const Navbar = () => {
                             title='Open Menu'
                             onClick={() => setIsMenuOpen(true)}
                         >
-                            <Bars3BottomRightIcon className='w-5  ml-10 text-white' />
+                            <Bars3BottomRightIcon className='w-8  ml-[180px] text-white' />
                         </button>
                         {isMenuOpen && (
                             <div className='absolute top-0 left-0 w-full z-10'>
@@ -129,10 +129,10 @@ const Navbar = () => {
                                                 </NavLink>
                                             </li>
                                         </ul>
-                                        <div className='flex justify-end gap-2 '>
+                                        <div className='flex justify-center gap-2 mt-2 '>
 
-                                            <button className='md:px-[16px] md:py-[8px] border-2 border-white rounded-full'>Download App</button>
-                                            <button className='md:px-[16px] md:py-[8px] border-2 border-white text-black bg-white rounded-full flex gap-1'><img className='h-[24px] w-[23.92px]' src={whatsapp} alt="" />Join Us</button>
+                                            <button className='md:px-[16px] md:py-[8px] px-4 border-2 border-black rounded-full'>Download App</button>
+                                            <button className='md:px-[16px] md:py-[8px] px-4 border-2 border-black text-white bg-black rounded-full flex gap-1'><img className='h-[24px] w-[23.92px]' src={whatsapp} alt="" />Join Us</button>
 
                                         </div>
                                     </nav>
