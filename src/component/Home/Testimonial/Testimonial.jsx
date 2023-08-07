@@ -6,7 +6,7 @@ const Testimonial = () => {
             <div>
                 <h2 className='md:text-[32px] text-[18px] font-semibold mt-[80px] text-center  '>Testimonials </h2>
                 <p className='text-center mb-[64px] text-[12px]'>Don't take our word for it , here's what others have to say.</p>
-                <div className='text-center md:flex justify-evenly ml-5 md:ml-0 mb-4  '>
+                <div className='text-center md:flex justify-evenly  mb-4  '>
                     <div className='md:w-[388px] w-[324px] italic text-[18px] mx-auto'>
                         <h2 className=' font-semibold md:mb-[56px] text-[14px]'>" Now we have the option to buy the produce directly from the farmers.Currently, we are working on 5 crops for export."</h2>
                         <div className='mb-4 text-[14px]' >
