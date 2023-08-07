@@ -9,7 +9,7 @@ const DemandForm = () => {
                     <img src={rectimage} alt="" className="md:h-[682px] md:w-full" />
                 </div>
 
-                <div className='md:w-1/2 bg-[#E2C0AD] md:pl-[71px] w-full py-[24px] md:py-0 px-[24px] '>
+                <div className='md:w-1/2 bg-[#E2C0AD] md:pl-[71px] w-full py-[24px] md:py-0  '>
 
          <h2 className='text-[32px] font-semibold text-center mt-[64px] mb-[50px]'>Join Us</h2>
                    

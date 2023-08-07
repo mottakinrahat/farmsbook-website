@@ -8,7 +8,7 @@ const FormsHome = () => {
                     <img src={rectimage} alt="" className="md:h-[682px] md:w-full" />
                 </div>
 
-                <div className='md:w-1/2 bg-[#E2C0AD] md:pl-[71px]  w-full py-[24px] md:py-0 pl-[24px]'>
+                <div className='md:w-1/2 bg-[#E2C0AD] md:pl-[71px]  w-full py-[24px] md:py-0 '>
 
                     <h2 className='text-[32px] font-semibold text-center mt-[64px] mb-[50px]'>Join Us</h2>
 
@@ -28,10 +28,10 @@ const FormsHome = () => {
                 </fieldset>
 
 
-                    <div className=' md:mr-[100px] mx-[24px] font-semibold '>
+                    <div className=' md:mr-[100px] mx-[60px]  font-semibold '>
 
                         <div className='md:flex items-center gap-[152px]'> <h2 className='mb-[2px]'>Name</h2>
-                            <input type="text" placeholder="Your Name" className="input border-none mb-[16px] md:w-[353px] w-[312px] h-[32px] md:h-[40px]" /></div>
+                            <input type="text" placeholder="Your Name" className="input  border-none mb-[16px] md:w-[353px] w-[312px] h-[32px] md:h-[40px]" /></div>
 
                         <div className='md:flex items-center gap-[134px]'><h2 className='mb-[2px]'>Email-id </h2>
                             <input type="text" placeholder="Your email-id" className="input border-none mb-[16px] md:w-[353px] w-[312px] h-[32px] md:h-[40px]" /></div>
