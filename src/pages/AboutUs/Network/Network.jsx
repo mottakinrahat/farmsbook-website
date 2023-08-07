@@ -37,17 +37,17 @@ const Network = () => {
             </div>
 
             <div className='md:hidden flex font-semibold justify-around items-center  text-center mb-6'>
-                <div className='flex w-[69px] h-[106px] flex-col  gap-2'>
-                    <img src={grp_1} className='h-[40px] w-[40px]' alt="" />
-                    <h2>600 Farmers Group</h2>
+                <div className='flex flex-col w-[69px] h-[106px]'>
+                    <img src={grp_1} className='h-[40px] w-[40px] mx-auto' alt="" />
+                    <h2 className='mt-2'>600 Farmers Group</h2>
                 </div>
                 <div className='flex flex-col w-[69px] h-[106px]'>
-                    <img src={grp_2} className='h-[40px] w-[40px]' alt="" />
-                    <h2>07 States</h2>
+                    <img src={grp_2} className='h-[40px] w-[40px] mx-auto' alt="" />
+                    <h2 className='mt-2'>07 States</h2>
                 </div>
                 <div className='flex flex-col w-[69px] h-[106px]'>
-                    <img src={grp_3} className='h-[40px] w-[40px]' alt="" />
-                    <h2>30+ Crops</h2>
+                    <img src={grp_3} className='h-[40px] w-[40px] mx-auto' alt="" />
+                    <h2 className='mt-2'>30+ Crops</h2>
                 </div>
             </div>
         </div>

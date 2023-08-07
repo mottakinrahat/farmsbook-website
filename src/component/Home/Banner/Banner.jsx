@@ -18,7 +18,7 @@ const Banner = () => {
                             Unlock demand forecasting's full potential.</p>
                         <div className='flex  md:gap-[80px] gap-10  md:ml-[240px] ml-[50px]'>
                             <button className='md:px-[16px]   md:py-[16px] border-4 font-semibold py-[4px] px-[8px] border-white rounded-full'>Download App</button>
-                            <button className='md:px-[49px] md:py-[16px] border-4 py-[4px] px-[20px] border-white text-black bg-white rounded-full flex gap-1'>Join Us</button>
+                            <button className='md:px-[49px] md:py-[16px] border-4 py-[4px] px-[20px] font-bold border-white text-black bg-white rounded-full flex gap-1'>Join Us</button>
                         </div>
                       
                             <p className='mt-6 text-yellow-200 text-xl font-semibold'>200 Members already joined  farmsbook community</p>
