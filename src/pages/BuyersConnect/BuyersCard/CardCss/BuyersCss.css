@@ -1,0 +1,14 @@
+/* Define your tablet breakpoint */
+@media (max-width: 768px) {
+    .tablet{
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+  
+  /* Define your mobile breakpoint */
+  @media (max-width: 480px) {
+    .mobile\:grid-cols-1 {
+      grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+  }
+ 

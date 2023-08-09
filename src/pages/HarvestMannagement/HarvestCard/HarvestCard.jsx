@@ -12,7 +12,7 @@ const HarvestCard = () => {
     console.log(harvestData);
     return (
         <div>
-           <div className='text-center mt-[25px] mb-[64px]'>
+           <div className='text-center md:mt-[100px] mt-[25px] mb-[64px]'>
            <h2 className='md:text-[32px] text-[20px] font-semibold'>How it will help you?</h2>
            <p>Streamlining Connections, Optimizing Harvest, and Anticipating Market Demands</p>
            </div>

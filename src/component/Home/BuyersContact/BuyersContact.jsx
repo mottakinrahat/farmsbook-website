@@ -3,6 +3,7 @@ import frame_1 from '../../../assets/Frame 221.png'
 import frame_2 from '../../../assets/Rectangle 38.png'
 import frame_3 from '../../../assets/Rectangle 39.png'
 import { FaArrowRight } from "react-icons/fa";
+import './contact/contact.css'
 const BuyersContact = () => {
     return (
         <div>
@@ -10,12 +11,12 @@ const BuyersContact = () => {
                 <h2 className='md:text-[40px] text-[20px] md:mb-[110px] mb-[16px] font-semibold mt-[30px] text-center '>How we do this ? </h2>
                 <div className='md:flex justify-evenly'>
                     <div>
-                        <img className='md:h-[460.33px]' src={frame_1}  alt="" />
+                        <img className='md:h-[460.33px] home-img' src={frame_1}  alt="" />
                     </div>
 
 
                     <div className='md:w-[496px] w-[327px] text-center md:mx-[16px] md:text-left mx-auto'>
-                        <p className='md:text-[24px] text-[14px] font-bold'>Buyers Connect</p>
+                        <p className='md:text-[24px] text-[14px] font-bold dfs'>Buyers Connect</p>
                         <h2 className='md:text-[32px] text-[18px] mb-[40px] font-bold'>Unlocking Opportunities, Strengthening Partnerships</h2>
                         
                             <p className='md:mb-[40px] text-[16px]'>With our Buyer Connect feature, we create a direct link between farmers and potential buyers, fostering meaningful connections and facilitating transparent transactions. Our platform enables farmers to showcase their products, negotiate prices, and establish long-term partnerships with reliable buyers, empowering them to expand their reach and maximize profitability.</p>

@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import SingleBuyers from '../BuyerBanner/SingleBuyers/SingleBuyers';
+import './CardCss/BuyersCss.css';
 
 const BuyersCard = () => {
 const [arrayData,setArrayData]=useState([]);
@@ -11,9 +12,9 @@ const [arrayData,setArrayData]=useState([]);
  },[])
  console.log(arrayData);
     return (
-        <div className='md:mx-[94px] px-4 mb-[80px]'>
-            <h2 className='text-[24px] mt-[71px] mb-[40px]  font-semibold'>Explore all Buyers </h2>
-           <div className='md:grid grid-cols-3 gap-6 mb-4 '>
+        <div className='md:mx-[94px] py-2 px-4 mb-[80px]'>
+            <h2 className='text-[24px] md:mt-[90px] mb-[40px]  font-semibold'>Explore all Buyers </h2>
+           <div className='md:grid md:grid-cols-3 tablet:grid-cols-2  gap-6 mb-4 '>
             {
           arrayData.map(sData=><SingleBuyers key={sData.id} sData={sData}></SingleBuyers>)
             }

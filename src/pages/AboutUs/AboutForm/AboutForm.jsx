@@ -1,11 +1,23 @@
 import React from 'react';
-import rectimage from '../../../assets/formsImg/harvestForm.png'
+import formImage_1 from '../../../assets/imageForm/image_from_1.png'
+import formImage_2 from '../../../assets/imageForm/image_form_2.jpeg';
+import formImage_3 from '../../../assets/imageForm/image_form_3.jpeg';
+import formImage_4 from '../../../assets/imageForm/image_form_4.jpeg';
+import formImage_5 from '../../../assets/imageForm/image_form_5.jpeg';
+import formImage_6 from '../../../assets/imageForm/image_form_6.jpeg';
 const AboutForm = () => {
     return (
         <div>
             <div className='md:h-[682px]  w-full md:flex justify-between  '>
                 <div className='md:w-1/2 relative md:block hidden'>
-                    <img src={rectimage} alt="" className="md:h-[682px] md:w-full" />
+                <div className='grid grid-cols-2 gap-2 px-2 py-2'>
+                        <img src={formImage_1} className='h-[220px] w-[380px] border-2 rounded-xl border-black' alt="" />
+                        <img src={formImage_2} className='h-[220px] w-[380px] border-2 rounded-xl border-black ' alt="" />
+                        <img src={formImage_3} className='h-[220px] w-[380px] border-2 rounded-xl border-black' alt="" />
+                        <img src={formImage_4} className='h-[220px] w-[380px] border-2 rounded-xl border-black' alt="" />
+                        <img src={formImage_5} className='h-[220px] w-[380px] border-2 rounded-xl border-black' alt="" />
+                        <img src={formImage_6} className='h-[220px] w-[380px] border-2 rounded-xl border-black' alt="" />
+                    </div>
                 </div>
 
                 <div className='md:w-1/2 bg-[#E2C0AD] md:pl-[71px] w-full py-[24px] md:py-0  '>
