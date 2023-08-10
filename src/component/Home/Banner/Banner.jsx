@@ -1,6 +1,8 @@
 import React from 'react';
 import './BannerCss/banner.css'
 import { Link } from 'react-router-dom';
+import bannerImg2 from '../../../assets/banner/banner_img_2.png'
+import bannerImg3 from '../../../assets/banner/banner_img_3.jpg'
 const Banner = () => {
     const bannerImgUrl = 'https://i.ibb.co/ZS568Bt/2nd.png';
     return (
@@ -54,10 +56,11 @@ const Banner = () => {
                     </div>
                 </div>
                 <div id="slide2" className="carousel-item relative md:h-[700px] w-full">
-                    <img src="https://i.ibb.co/TcJpyHb/rajeev-rajagopalan.jpg" className="w-full" />
+                    <div className="image-overlay"></div>
+                    <img src={bannerImg2} className="w-full " />
                     <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white w-full ">
                         <div className="hero-content text-center text-neutral-content mx-auto">
-                            <div className="">
+                            <div className="text-white">
                                 <h1 className="md:mb-[40px] md:text-[40px] mb-5 text-[20px] font-semibold">Connecting the world of Farmers and Buyers</h1>
                                 <p className="md:mb-[48px] md:w-[502px] md:text-[24px] mx-auto " id="hidden-text">Bridge the gap between farmers and buyers.
                                     Streamline harvest management.
@@ -79,6 +82,8 @@ const Banner = () => {
 
                 </div>
                 <div id="slide3" className="carousel-item relative md:h-[700px] w-full">
+                    <div className="image-overlay"></div>
+                    <img src={bannerImg3} className="w-full " />
                     <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white w-full ">
                         <div className="hero-content text-center text-neutral-content mx-auto">
                             <div className="">
@@ -96,7 +101,7 @@ const Banner = () => {
                             </div>
                         </div>
                     </div>
-                    <img src="https://i.ibb.co/c3Ckf6b/tem.jpg" className="w-full" />
+
                     <div className="absolute flex justify-between  transform -translate-y-1/2 md:left-5 left-2 md:right-5 right-2 md:top-1/2 bottom-0 md:bottom-1/2">
                         <a href="#slide2" className="btn btn-circle">❮</a>
                         <a href="#slide4" className="btn btn-circle">❯</a>
