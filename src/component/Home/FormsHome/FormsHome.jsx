@@ -9,8 +9,8 @@ const FormsHome = () => {
     return (
         <div>
             <div className='md:h-[682px]  w-full md:flex justify-between  '>
-                <div className='md:w-1/2 relative md:block hidden'>
-                    <div className='grid grid-cols-2 gap-2 px-2 py-2'>
+                <div className='md:w-1/2 relative md:block'>
+                    <div className='grid md:grid-cols-2 md:gap-2 gap-4 md:px-2 py-2 px-3'>
                         <img src={formImage_1} className='h-[220px] w-[380px] border-2 rounded-xl border-black' alt="" />
                         <img src={formImage_2} className='h-[220px] w-[380px] border-2 rounded-xl border-black ' alt="" />
                         <img src={formImage_3} className='h-[220px] w-[380px] border-2 rounded-xl border-black' alt="" />
