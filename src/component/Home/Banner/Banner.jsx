@@ -8,7 +8,6 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 
 import 'swiper/css';
 import 'swiper/css/pagination';
-import 'swiper/css/navigation';
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 import './BannerCss/banner.css'
 const Banner = () => {
@@ -133,8 +132,8 @@ const Banner = () => {
                     className="mySwiper"
                 >
                     <SwiperSlide >
-                        <div id="slide1" className="carousel-item relative md:h-[700px] w-full">
-                            <img src="https://i.ibb.co/ZS568Bt/2nd.png" className="w-full" />
+                        <div id="slide1" className="carousel-item relative md:h-[700px] h-[450px] md:w-full">
+                            <img src="https://i.ibb.co/ZS568Bt/2nd.png" className="w-[900px] md:w-full" />
                             <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white w-full ">
                                 <div className="hero-content text-center text-neutral-content mx-auto">
                                     <div className="">
@@ -156,9 +155,9 @@ const Banner = () => {
                     </SwiperSlide>
 
                     <SwiperSlide>
-                        <div id="slide2" className="carousel-item relative md:h-[700px] w-full">
+                        <div id="slide2" className="carousel-item relative md:h-[700px] h-[450px] w-full">
                             <div className="image-overlay"></div>
-                            <img src={bannerImg2} className="w-full " />
+                            <img src={bannerImg2}  className="w-[900px] md:w-full" />
                             <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white w-full ">
                                 <div className="hero-content text-center text-neutral-content mx-auto">
                                     <div className="text-white">
@@ -179,9 +178,9 @@ const Banner = () => {
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <div id="slide3" className="carousel-item relative md:h-[700px] w-full">
+                        <div id="slide3" className="carousel-item relative md:h-[700px] h-[450px] w-full">
                             <div className="image-overlay"></div>
-                            <img src={bannerImg3} className="w-full " />
+                            <img src={bannerImg3}  className="w-[900px] md:w-full" />
                             <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white w-full ">
                                 <div className="hero-content text-center text-neutral-content mx-auto">
                                     <div className="">
