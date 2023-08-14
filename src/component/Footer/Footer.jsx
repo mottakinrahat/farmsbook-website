@@ -6,6 +6,7 @@ import youtubeLogo from '../../assets/icon/mdi_youtube.png'
 import linkedLogo from '../../assets/icon/bi_linkedin.png'
 
 import playstore from '../../assets/playstore.png'
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
     const listStyle = {
@@ -37,11 +38,11 @@ const Footer = () => {
                 </div>
             </div>
             <div className='flex justify-center items-center mt-[64px] gap-[45px] h-[32px]'>
-                <img src={fbLogo} className='h-[32px] w-[32]' alt="" />
-                <img src={twiteerLogo} className='h-[32px] w-[32]' alt="" />
-                <img src={instaLogo} className='h-[32px] w-[32]' alt="" />
-                <img src={youtubeLogo} className='h-[32px] w-[32]' alt="" />
-                <img src={linkedLogo} className='h-[32px] w-[32]' alt="" />
+                <Link to='https://www.facebook.com/farmsbookHub'><img src={fbLogo} className='h-[32px] w-[32]' alt="" /></Link>
+                <Link to='https://twitter.com/farmsbook_com'><img src={twiteerLogo} className='h-[32px] w-[32]' alt="" /></Link>
+                <Link to='https://www.instagram.com/farmsbook/'><img src={instaLogo} className='h-[32px] w-[32]' alt="" /></Link>
+                <Link to='https://www.youtube.com/watch?v=lOKXqHYce_s&ab_channel=NextFounder'><img src={youtubeLogo} className='h-[32px] w-[32]' alt="" /></Link>
+                <Link to='https://www.linkedin.com/company/farmsbook/?originalSubdomain=in'><img src={linkedLogo} className='h-[32px] w-[32]' alt="" /></Link>
             </div>
 
             <div className='mt-[78px] mb-[40px] text-center'>
