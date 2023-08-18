@@ -9,7 +9,7 @@ const Team = () => {
             .then(data => setTeamData(data))
     }, [])
     return (
-        <div className='mb-[32px]'>
+        <div className='mb-[32px]' >
             <h2 className='md:mt-[120px] mt-20 text-center md:mb-[70px] mb-8 text-[32px] font-semibold'>Our Team</h2>
 
            <div className='grid grid-cols-2 md:grid-cols-3 justify-around items-center md:mx-[260px] mx-[24px] gap-6'>

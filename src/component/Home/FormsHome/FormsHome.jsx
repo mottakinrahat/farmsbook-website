@@ -1,4 +1,8 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 import formImage_1 from '../../../assets/imageForm/image_from_1.png'
 import formImage_2 from '../../../assets/imageForm/image_form_2.jpeg';
 import formImage_3 from '../../../assets/imageForm/image_form_3.jpeg';
@@ -6,11 +10,14 @@ import formImage_4 from '../../../assets/imageForm/image_form_4.jpeg';
 import formImage_5 from '../../../assets/imageForm/image_form_5.jpeg';
 import formImage_6 from '../../../assets/imageForm/image_form_6.jpeg';
 const FormsHome = () => {
+    useEffect(() => {
+        AOS.init();
+    }, []);
     return (
         <div>
             <div className='md:h-[682px]  w-full md:flex justify-between  '>
                 <div className='md:w-1/2 relative md:block'>
-                    <div className='grid md:grid-cols-2 md:gap-2 gap-4 md:px-2 py-2 px-3'>
+                    <div className='grid md:grid-cols-2 md:gap-2 gap-4 md:px-2 py-2 px-3' data-aos="fade-down-right" >
                         <img src={formImage_1} className='h-[220px] w-[380px] border-2 rounded-xl border-black' alt="" />
                         <img src={formImage_2} className='h-[220px] w-[380px] border-2 rounded-xl border-black ' alt="" />
                         <img src={formImage_3} className='h-[220px] w-[380px] border-2 rounded-xl border-black' alt="" />

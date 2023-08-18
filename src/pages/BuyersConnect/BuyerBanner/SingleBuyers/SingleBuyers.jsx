@@ -1,10 +1,15 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const SingleBuyers = ({sData}) => {
-    console.log(sData);
+    useEffect(() => {
+        AOS.init();
+    }, []);
+  
    const{background_image , company_name , location , owner_name , products_deals_in , profile_picture}=sData;
     return (
-        <div>
+        <div data-aos="flip-left">
             <div className='card md:h-[500px] h-[393px] mx-auto  md:w-[396px] w-[328px] mb-4 border-2 rounded border-[#BDB7B7] bg-white'>
                 <div className='card-content'>
                     <img src={background_image}  alt="" />

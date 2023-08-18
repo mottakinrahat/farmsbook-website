@@ -1,12 +1,17 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Benifit = () => {
+    useEffect(() => {
+        AOS.init();
+    }, []);
     return (
-        <div className='mb-[96px]'>
+        <div className='mb-[96px]' >
             <h2 className='text-[32px] text-center mt-[120] mb-[64px]'>Benefits</h2>
-            <div className='md:flex justify-around items-center  md:ml-0  '>
-                <div className='md:w-[396px] w-[324px] md:h-[544px] h-[412px] mb-5 md:py-[40px] py-2 pr-2 mx-auto md:pl-[40px] pl-[20px] bg-[#F9E3B9] rounded-lg '>
-                    <div className='flex flex-col justify-between mx-auto '>
+            <div className='md:flex justify-around items-center  md:ml-0 ' >
+                <div className='md:w-[396px] w-[324px] md:h-[544px] h-[412px] mb-5 md:py-[40px] py-2 pr-2 mx-auto md:pl-[40px] pl-[20px] bg-[#F9E3B9] rounded-lg ' data-aos="zoom-in">
+                    <div className='flex flex-col justify-between mx-auto ' data-aos="zoom-in">
                         <div className='md:pr-[25px] '>
                             <h2 className='text-[24px] font-bold md:mb-[16px] '>Increased Revenue</h2>
                             <div className='w-[283px] text-[14px] md:text-[16px] '>
@@ -19,7 +24,7 @@ const Benifit = () => {
                         </div>
                     </div>
                 </div>
-                <div className='md:w-[396px] w-[324px] md:h-[544px] h-[412px] mb-5 md:py-[0px] py-2 pr-2 mx-auto md:pl-[40px] px-[20px] bg-[#F9E3B9] rounded-lg '>
+                <div className='md:w-[396px] w-[324px] md:h-[544px] h-[412px] mb-5 md:py-[0px] py-2 pr-2 mx-auto md:pl-[40px] px-[20px] bg-[#F9E3B9] rounded-lg ' data-aos="zoom-in">
                     <div className='flex flex-col-reverse justify-between'>
                         <div className='pr-[25px]'>
                             <h2 className='text-[24px] font-bold  md:mb-[16px] '>Business Expansion and Diversification</h2>
@@ -33,7 +38,7 @@ const Benifit = () => {
                         </div>
                     </div>
                 </div>
-                <div className='md:w-[396px] w-[324px] md:h-[544px] h-[412px] mb-5 md:py-[40px] mx-auto pt-2 pr-2 md:pl-[40px] px-[20px] bg-[#F9E3B9] rounded-lg '>
+                <div className='md:w-[396px] w-[324px] md:h-[544px] h-[412px] mb-5 md:py-[40px] mx-auto pt-2 pr-2 md:pl-[40px] px-[20px] bg-[#F9E3B9] rounded-lg ' data-aos="zoom-in">
                     <div className='flex flex-col justify-between'>
                         <div className='pr-[25px]'>
                             <h2 className='text-[24px] font-bold mb-[16px]'>Enhanced Efficiency and Productivity</h2>
