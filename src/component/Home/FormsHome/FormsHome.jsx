@@ -64,7 +64,7 @@ const FormsHome = () => {
 
                     </div>
                     <div className='text-center md:mt-[90px] mt-[32px]'>
-                        <button className='py-[16px] px-[32px] bg-[#00853C] text-white rounded-xl '>Submit</button>
+                        <button className='py-[16px] px-[32px] bg-[#00853C] text-white rounded-xl hover:bg-white hover:text-black hover:border-2 hover:border-black duration-100 hover:shadow-xl'>Submit</button>
                     </div>
                 </div>
             </div>

@@ -25,8 +25,8 @@ const SingleHCard = ({ harvest }) => {
                         <li>{list3}</li>
                     </div>
                     <div>
-                        <button className='py-[16px] px-[32px] hidden  md:flex gap-2 items-center bg-[#CEF8E1] rounded-full'>Connect now <FaArrowRight /></button>
-                        <button className='py-[8px] px-[8px] md:hidden flex gap-2 items-center bg-[#D9D9D9] rounded mx-auto'>Get Started<FaArrowRight /></button>
+                        <button className='py-[16px] px-[32px] hidden  md:flex gap-2 items-center bg-[#CEF8E1] rounded-full hover:bg-black hover:text-white hover:border-2 hover:border-black duration-100 hover:shadow-xl'>Connect now <FaArrowRight /></button>
+                        <button className='py-[8px] px-[8px] md:hidden flex gap-2 items-center bg-[#D9D9D9] rounded mx-auto hover:bg-black hover:text-white hover:border-2 hover:border-black duration-100 hover:shadow-xl'>Get Started<FaArrowRight /></button>
                     </div>
                 </div>
             </div>

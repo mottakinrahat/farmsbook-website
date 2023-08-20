@@ -16,7 +16,7 @@ const SingleDemand = ({demand}) => {
                     <p className='md:text-[16px] text-[14px] mb-[24px]'>{description}</p>
 
                     <div className='text-[#00853C] '>
-                        <button className='flex items-center gap-2'>Know more <FaArrowRight /></button>
+                        <button className='flex items-center gap-2 hover:text-black hover:duration-100'>Know more <FaArrowRight /></button>
                     </div>
                 </div>
             </div>

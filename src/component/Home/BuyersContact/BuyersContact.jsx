@@ -28,7 +28,7 @@ const BuyersContact = () => {
                             <p className='md:mb-[40px] text-[16px]'>With our Buyer Connect feature, we create a direct link between farmers and potential buyers, fostering meaningful connections and facilitating transparent transactions. Our platform enables farmers to showcase their products, negotiate prices, and establish long-term partnerships with reliable buyers, empowering them to expand their reach and maximize profitability.</p>
                     
 
-                        <button className='py-[16px] mx-auto md:mx-0 px-[30.5px] bg-black text-white flex items-center gap-2 '>Connect Now <FaArrowRight /></button>
+                        <button className='py-[16px] mx-auto md:mx-0 px-[30.5px] bg-black hover:bg-white hover:text-black hover:border-2 hover:border-black duration-100 hover:shadow-xl text-white flex items-center gap-2 '>Connect Now <FaArrowRight /></button>
                     </div>
                 </div>
             </div>
@@ -41,7 +41,7 @@ const BuyersContact = () => {
                     <h2 className='md:text-[32px] text-[18px] mb-[40px] font-bold'>Optimizing Efficiency, Ensuring Success</h2>
                     <p className='mb-[40px] text-[16px] '>Through our Harvest Management services, we provide farmers with tools and insights to optimize their harvest schedules, track yield data, and monitor crop quality. By harnessing the power of data-driven decision-making, we help farmers improve productivity, reduce waste, and enhance overall operational efficiency.</p>
 
-                    <button className='py-[16px] px-[30.5px] md:mx-0 mx-auto mb-4 md:mb-0 bg-black text-white flex items-center gap-2 '>Get started <FaArrowRight /></button>
+                    <button className='py-[16px] px-[30.5px] md:mx-0 mx-auto mb-4 md:mb-0 bg-black text-white flex items-center gap-2 hover:bg-white hover:text-black hover:border-2 hover:border-black duration-100 hover:shadow-xl'>Get started <FaArrowRight /></button>
                 </div>
 
                 <div data-aos="fade-up-left">
@@ -61,7 +61,7 @@ const BuyersContact = () => {
                     <h2 className='md:text-[32px] text-[18px] mb-[40px] font-bold'>Anticipating Needs, Driving Growth</h2>
                     <p className='mb-[40px] text-[16px] '>Our platform leverages advanced analytics and market trends to provide farmers with valuable insights into future demand patterns. By equipping farmers with the knowledge to anticipate market needs, we empower them to plan their production cycles effectively, minimize supply-demand imbalances, and seize growth opportunities.</p>
 
-                    <button className='py-[16px] px-[30.5px] md:mx-0 mx-auto bg-black text-white flex items-center gap-2 '>Get started <FaArrowRight /></button>
+                    <button className='py-[16px] px-[30.5px] md:mx-0 mx-auto bg-black text-white flex items-center gap-2 hover:bg-white hover:text-black hover:border-2 hover:border-black duration-100 hover:shadow-xl'>Get started <FaArrowRight /></button>
                 </div>
 
             </div>

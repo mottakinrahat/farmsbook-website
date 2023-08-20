@@ -55,8 +55,8 @@ const Navbar = () => {
                         </ul></div>
                     <div className='md:flex justify-end gap-2 hidden'>
 
-                        <Link to='https://play.google.com/store/apps/details?id=com.farmerspp.com&hl=en_IN&gl=US&pli=1'><button className='md:px-[16px] md:py-[8px] border-2 border-white rounded-full hover:bg-white hover:text-black delay-50 '>Download App</button></Link>
-                        <Link to='https://docs.google.com/forms/d/e/1FAIpQLSfPIP8JddDoDkeMFgXOWYv2eZq3yp68zM06i0JmScN32oqQ8w/viewform'><button className='md:px-[16px] md:py-[8px] border-2 border-white text-black bg-white rounded-full flex gap-1  hover:bg-slate-500 hover:text-white delay-50  hover:border-slate-500'><img className='h-[24px] w-[23.92px]' src={whatsapp} alt="" />Join Us</button></Link>
+                        <Link to='https://play.google.com/store/apps/details?id=com.farmerspp.com&hl=en_IN&gl=US&pli=1'><button className='md:px-[16px] md:py-[8px] border-2 border-white rounded-full hover:bg-white hover:text-black delay-50 duration-100 '>Download App</button></Link>
+                        <Link to='https://docs.google.com/forms/d/e/1FAIpQLSfPIP8JddDoDkeMFgXOWYv2eZq3yp68zM06i0JmScN32oqQ8w/viewform'><button className='md:px-[16px] md:py-[8px] border-2 border-white text-black bg-white rounded-full flex gap-1  hover:bg-slate-500 hover:text-white duration-100  hover:border-slate-500'><img className='h-[24px] w-[23.92px]' src={whatsapp} alt="" />Join Us</button></Link>
 
                     </div>
                     {/* Mobile Navbar Section */}
@@ -131,8 +131,8 @@ const Navbar = () => {
                                         </ul>
                                         <div className='flex justify-center gap-2 mt-2 '>
 
-                                            <Link to='https://play.google.com/store/apps/details?id=com.farmerspp.com&hl=en_IN&gl=US&pli=1'><button className='md:px-[16px] md:py-[8px] px-4 border-2 border-black rounded-full hover:bg-white hover:text-black delay-50'>Download App</button></Link>
-                                            <Link to='https://docs.google.com/forms/d/e/1FAIpQLSfPIP8JddDoDkeMFgXOWYv2eZq3yp68zM06i0JmScN32oqQ8w/viewform'><button className='md:px-[16px] md:py-[8px] px-4 border-2 border-black text-white bg-black rounded-full flex gap-1'><img className='h-[24px] w-[23.92px]  hover:bg-slate-500 hover:text-white delay-50  hover:border-slate-500' src={whatsapp} alt="" />Join Us</button></Link>
+                                            <Link to='https://play.google.com/store/apps/details?id=com.farmerspp.com&hl=en_IN&gl=US&pli=1'><button className='md:px-[16px] md:py-[8px] px-4 border-2 border-black rounded-full hover:bg-white hover:text-black hover:duration-500 hover:shadow-xl'>Download App</button></Link>
+                                            <Link to='https://docs.google.com/forms/d/e/1FAIpQLSfPIP8JddDoDkeMFgXOWYv2eZq3yp68zM06i0JmScN32oqQ8w/viewform'><button className='md:px-[16px] md:py-[8px] px-4 border-2 border-black text-white bg-black rounded-full flex gap-1'><img className='h-[24px] w-[23.92px]  hover:bg-slate-500 hover:text-white duration-500  hover:border-slate-500' src={whatsapp} alt="" />Join Us</button></Link>
 
                                         </div>
                                     </nav>
