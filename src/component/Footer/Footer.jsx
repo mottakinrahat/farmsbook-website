@@ -34,7 +34,7 @@ const Footer = () => {
                </div>
                 <div>
                     <h2 className='text-[24px] mb-[16px] font-semibold'>Download App Now</h2>
-                    <Link to='https://play.google.com/store/apps/details?id=com.farmerspp.com&hl=en_IN&gl=US&pli=1'><img src={playstore} alt="" /></Link>
+                    <Link to='https://play.google.com/store/apps/details?id=com.farmsbooks.farmsbook'><img src={playstore} alt="" /></Link>
                 </div>
             </div>
             <div className='flex justify-center items-center mt-[64px] gap-[45px] h-[32px]'>

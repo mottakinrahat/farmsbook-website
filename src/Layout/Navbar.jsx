@@ -55,7 +55,7 @@ const Navbar = () => {
                         </ul></div>
                     <div className='md:flex justify-end gap-2 hidden'>
 
-                        <Link to='https://play.google.com/store/apps/details?id=com.farmerspp.com&hl=en_IN&gl=US&pli=1'><button className='md:px-[16px] md:py-[8px] border-2 border-white rounded-full hover:bg-white hover:text-black delay-50 duration-100 '>Download App</button></Link>
+                        <Link to='https://play.google.com/store/apps/details?id=com.farmsbooks.farmsbook'><button className='md:px-[16px] md:py-[8px] border-2 border-white rounded-full hover:bg-white hover:text-black delay-50 duration-100 '>Download App</button></Link>
                         <Link to='https://docs.google.com/forms/d/e/1FAIpQLSfPIP8JddDoDkeMFgXOWYv2eZq3yp68zM06i0JmScN32oqQ8w/viewform'><button className='md:px-[16px] md:py-[8px] border-2 border-white text-black bg-white rounded-full flex gap-1  hover:bg-slate-500 hover:text-white duration-100  hover:border-slate-500'><img className='h-[24px] w-[23.92px]' src={whatsapp} alt="" />Join Us</button></Link>
 
                     </div>
